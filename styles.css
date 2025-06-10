@@ -1,0 +1,46 @@
+#container {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    background-color: grey;
+    padding: 1px;
+    width: 800px;
+    height: 800px;
+    
+}
+
+.square {
+
+    background-color: black;
+    margin: 1px;
+    flex-grow: 1;
+    align-self: stretch;
+    opacity: 1;
+   
+}
+
+.row {
+
+    display: flex;
+    background-color: grey;
+    flex-grow: 1;
+
+}
+
+body {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    background-color: black;
+
+}
+
+button {
+
+    background-color: grey;
+
+ }
